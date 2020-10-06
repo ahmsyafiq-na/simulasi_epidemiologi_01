@@ -7,6 +7,16 @@ Untuk melakukan simulasi epidemiologi, diperlukan pemasangan aplikasi GAMA, sert
   - [Pemasangan Aplikasi GAMA](#Pemasangan-Aplikasi-GAMA)
     
     - [Kebutuhan Sistem](#Kebutuhan-Sistem)
+    
+    - [Mengunduh Aplikasi](#Mengunduh-Aplikasi)
+    
+    - [Mengunduh Model Simulasi](#Mengunduh-Model-Simulasi)
+    
+  - [Melakukan Simulasi pada GAMA](#Melakukan-simulasi-pada-gama)
+  
+    - [Meng-*import* Model Simulasi](#meng-import-model-simulasi)
+    
+    - [Menjalankan Simulasi](#Menjalankan-Simulasi)
 
 ## Pemasangan Aplikasi GAMA
 
