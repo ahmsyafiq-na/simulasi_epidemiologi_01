@@ -53,49 +53,49 @@ Kemudian, akan ditampilkan jendela utama aplikasi GAMA.
 
 Pengguna dapat mengunduh berkas model simulasi pada repository GitHub ini. Pengguna perlu untuk mengunduh kemudian mengekstraksi berkas .zip yang diunduh, pada direktori yang diinginkan. 
 
-Setelah diekstraksi, akan terlihat bahwa berkas .zip berisi folder bernama "Model", yang berisi folder "Simulasi Epidemiologi".
+Setelah diekstraksi, akan terlihat bahwa terdapat folder bernama "Simulasi Epidemiologi".
 
 ## Melakukan Simulasi pada GAMA
 
 ### Meng-*import* Model Simulasi
 
-Setelah ditampilkan jendela utama, langkah selanjutnya adalah meng-*import* model simulasi. Untuk melakukannya, pengguna perlu mengklik kanan pada bagian yang ditunjuk pada gambar 7. Kemudian, pilih "Import..." dan "GAMA Project...".
+Setelah ditampilkan jendela utama, langkah selanjutnya adalah meng-*import* model simulasi. Untuk melakukannya, pengguna perlu mengklik kanan pada bagian yang ditunjuk pada gambar 6. Kemudian, pilih "Import..." dan "GAMA Project...".
 
+![Gambar06](images/image-20200926123021935.png)
 
-
-> Gambar 7. Tampilan setelah klik kanan pada bagian kiri jendela utama, di bawah "Library models", "Plugin models", "Test models", dan "User models".
+> Gambar 6. Tampilan setelah klik kanan pada bagian kiri jendela utama, di bawah "Library models", "Plugin models", "Test models", dan "User models".
 
 Pada jendela yang muncul, pilih opsi "Select root directory:" dan klik "Browse".
 
+![Gambar07](images/image-20200926123240634.png)
 
-
-> Gambar 8. Jendela yang muncul setelah "Import... > GAMA Project...".
+> Gambar 7. Jendela yang muncul setelah "Import... > GAMA Project...".
 
 Jendela untuk memilih direktori akan ditampilkan. Pengguna perlu untuk memilih folder model Simulasi Epidemiologi yang sebelumnya telah diunduh dan diekstraksi, dengan mengkliknya lalu klik "Select Folder". Setelah kembali ke jendela sebelumnya, pilih "Finish".
 
+![Gambar08](images/image-20200926123526189.png)
 
+> Gambar 8. Tampilan folder Simulasi Epidemiologi yang perlu dipilih.
 
-> Gambar 9. Tampilan folder Simulasi Epidemiologi yang perlu dipilih.
+Pengguna mungkin perlu menunggu sebelum proses *import* selesai. Jika berhasil, maka akan muncul model Simulasi Epidemiologi pada bagian kiri jendela utama GAMA. Kemudian, klik dua kali pada teks tersebut dan klik dua kali pada teks "models", sehingga tampilan nampak seperti berikut pada gambar 9.
 
-Pengguna mungkin perlu menunggu sebelum proses *import* selesai. Jika berhasil, maka akan muncul model Simulasi Epidemiologi pada bagian kiri jendela utama GAMA. Kemudian, klik dua kali pada teks tersebut dan klik dua kali pada teks "models", sehingga tampilan nampak seperti berikut pada gambar 10.
+![Gambar09](images/2DB466F2-7485-44D7-B658-7AA4533F91A4}.png - Edit.jpg)
 
-
-
-> Gambar 10. Tampilan jendela setelah *import* model simulasi.
+> Gambar 9. Tampilan jendela setelah *import* model simulasi.
 
 ### Menjalankan Simulasi
 
-Pengguna perlu untuk mengklik dua kali pada "experiment.gaml" yang ditunjukkan pada kotak merah pada gambar 10. Tampilan jendela akan memperlihatkan kode program yang menyusun *file* model. Kemudian, tekan tombol hijau yang bertuliskan "Run experiment".
+Pengguna perlu untuk mengklik dua kali pada "experiment.gaml" yang ditunjukkan pada kotak merah pada gambar 9. Tampilan jendela akan memperlihatkan kode program yang menyusun *file* model. Kemudian, tekan tombol hijau yang bertuliskan "Run experiment".
 
+![Gambar10](images/{8411688F-6DE9-4A32-AE49-42474B7853B0}.png - Edit.jpg)
 
+> Gambar 10. Tampilan isi dari berkas experiment.gaml. Lingkaran merah menunjukkan tombol untuk memulai simulasi.
 
-> Gambar 11. Tampilan isi dari berkas experiment.gaml. Lingkaran merah menunjukkan tombol untuk memulai simulasi.
+Tunggu beberapa saat sementara model simulasi dipersiapkan oleh GAMA. Setelah selesai, pengguna akan dihadapkan pada jendela dialog seperti pada gambar 11.
 
-Tunggu beberapa saat sementara model simulasi dipersiapkan oleh GAMA. Setelah selesai, pengguna akan dihadapkan pada jendela dialog seperti pada gambar 12.
+![Gambar11](images/image-20200926125344997.png)
 
-
-
->  Gambar 12. Dialog yang ditunjukkan sebelum simulasi berlangsung.
+>  Gambar 11. Dialog yang ditunjukkan sebelum simulasi berlangsung.
 
 Akan terdapat 5 pertanyaan yang perlu dijawab pengguna:
 
@@ -107,9 +107,9 @@ Akan terdapat 5 pertanyaan yang perlu dijawab pengguna:
 
 Setelah kelima pertanyaan dijawab pengguna, simulasi akan berjalan secara otomatis. Tampilan jendela akan menjadi seperti berikut.
 
+![Gambar12](images/image-20200926125558722.png)
 
-
-> Gambar 13. Tampilan utama simulasi yang berlangsung.
+> Gambar 12. Tampilan utama simulasi yang berlangsung.  
 
 Terdapat tiga grafik serta peta yang dapat diamati pengguna. Grafik-grafik tersebut terdiri dari grafik konfirmasi, kematian, dan kesembuhan per hari; grafik data sembuh dan meninggal; serta grafik data jumlah pasien di rumah sakit atau ICU.
 
@@ -119,14 +119,14 @@ Grafik yang berada pada bagian kanan atas menunjukkan data total individu yang d
 
 Grafik yang terakhir pada bagian kiri bawah menunjukkan data total individu yang terinfeksi, individu yang dirawat di rumah sakit (termasuk dirawat di ICU), dan individu yang dirawat di ICU. Grafik yang terakhir ini menunjukkan data total individu yang terinfeksi juga, yang berarti meliputi individu yang sudah tes (dan dirawat di rumah sakit) maupun individu yang belum dites. Dari grafik ini dapat diinterpretasikan rasio jumlah tes per infeksi, serta dapat diinterpretasikan pertumbuhan jumlah pasien rumah sakit. Data yang ditunjukkan juga data akumulasi, dan juga di-*update* setiap 24 jam.
 
-Pengguna dapat melakukan *zoom-in* pada peta dengan menggunakan *scroll* *mouse* pada bagian peta di simulasi, bila diperlukan, atau dengan menekan tombol *maximize* pada peta. Gambar 14 berikut menunjukkan letak tombol *maximize* untuk masing-masing grafik atau peta.
+Pengguna dapat melakukan *zoom-in* pada peta dengan menggunakan *scroll* *mouse* pada bagian peta di simulasi, bila diperlukan, atau dengan menekan tombol *maximize* pada peta. Gambar 13 berikut menunjukkan letak tombol *maximize* untuk masing-masing grafik atau peta.
 
+![Gambar13](images/image-20200926132619408.png)
 
-
-> Gambar 14. Lingkaran untuk menunjukkan tombol *maximize* grafik atau peta.
+> Gambar 13. Lingkaran untuk menunjukkan tombol *maximize* grafik atau peta.
 
 Simulasi akan berhenti dengan sendirinya pada hari yang ditentukan pengguna. Tetapi, pengguna dapat juga menghentikan simulasi di tengah-tengah dengan menekan tombol X yang ada di bagian atas jendela simulasi.
 
+![Gambar14](images/{C4BDEFEE-3B44-4484-93D2-85549B037E48}.png.jpg)
 
-
-> Gambar 15. Tombol-tombol pengatur simulasi terdapat pada bagian atas jendela.
+> Gambar 14. Tombol-tombol pengatur simulasi terdapat pada bagian atas jendela.
