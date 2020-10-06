@@ -79,7 +79,7 @@ Jendela untuk memilih direktori akan ditampilkan. Pengguna perlu untuk memilih f
 
 Pengguna mungkin perlu menunggu sebelum proses *import* selesai. Jika berhasil, maka akan muncul model Simulasi Epidemiologi pada bagian kiri jendela utama GAMA. Kemudian, klik dua kali pada teks tersebut dan klik dua kali pada teks "models", sehingga tampilan nampak seperti berikut pada gambar 9.
 
-![Gambar09](images/2DB466F2-7485-44D7-B658-7AA4533F91A4}.png-Edit.jpg)
+![Gambar09](images/{2DB466F2-7485-44D7-B658-7AA4533F91A4}.png-Edit.jpg)
 
 > Gambar 9. Tampilan jendela setelah *import* model simulasi.
 
