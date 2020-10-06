@@ -2,7 +2,7 @@
 
 Untuk melakukan simulasi epidemiologi, diperlukan pemasangan aplikasi GAMA, serta beberapa prosedur yang dijelaskan pada dokumen ini.
 
-[toc]
+[Header](#Manual-Pengguna)
 
 ## Pemasangan Aplikasi GAMA
 
