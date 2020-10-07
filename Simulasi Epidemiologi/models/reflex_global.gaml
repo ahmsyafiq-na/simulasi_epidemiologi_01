@@ -55,7 +55,7 @@ global {
 		susceptibles <- Individual count (each.status = susceptible);
 		deaths <- num_individuals_init - length(Individual);
 		
-		infections_today <- infections - infections_temp;
+		infections_today <- Individual count (each.status in [exposed, infectious] and each.infection_time < 24);
 		recoveries_today <- recoveries - recoveries_temp;
 		deaths_today <- deaths - deaths_temp;
 		positives_today <- Individual count (each.quarantine_status in [hospital,ICU] and each.quarantine_time < 24);
