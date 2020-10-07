@@ -53,9 +53,10 @@ global {
 
 experiment "Run experiment" type: gui autorun:true {
 	bool allow_rewrite <- true;
+	string filename <- "save_data_harian_" + cur_date_str + ".csv";
 	reflex output_file when: current_hour = 0 {
 		// Refleks untuk mengatur data apa saja yang dioutputkan ke file .csv output.
-		save [string(current_day), infections_today, positives_today, recoveries_today, deaths_today] to: "save_infeksi_positif_sembuh_meninggal_harian.csv" type:csv rewrite:allow_rewrite;
+		save [string(current_day), infections_today, positives_today, recoveries_today, deaths_today] to: filename type:csv rewrite:allow_rewrite;
 		allow_rewrite <- false;
 	}
 	
