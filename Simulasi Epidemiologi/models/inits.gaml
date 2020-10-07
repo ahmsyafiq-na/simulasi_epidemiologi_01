@@ -13,8 +13,8 @@ import "parameter.gaml"
 import "reflex_global.gaml"
 
 global {
-	
-	
+	date cur_date <- #now;
+	string cur_date_str <- replace(string(cur_date),':','-');
 	int hours_elapsed <- 0 update: hours_elapsed + 1;
 	int current_hour <- 0 update: (hours_elapsed) mod 24;
 	int current_day_of_week <- 0 update: ((hours_elapsed) div 24) mod 7;
